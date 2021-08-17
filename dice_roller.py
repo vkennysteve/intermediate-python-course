@@ -1,6 +1,7 @@
 import random
 
-dice_roll = int(input('How many dice would you like?'))
+player = input('what is your name')
+dice_roll = int(input(f'{player}, How many dice would you like?'))
 dice_size = int(input('How many sizes should the dice have?'))
 dice_sum = 0
 for i in range(0, dice_roll):
